@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
 const Home = () => {
   const [text, setText] = useState('');
   const name = "Akshay Negi";
-  const roles = ["Mobile App Developer", "Flutter Expert", "UI/UX Enthusiast"];
+  const roles = ["Native Mobile App Developer", "Competitive Coder", "Frontend Developer", "Python Developer", "Machine Learning Enthusiast"];
   const [roleIndex, setRoleIndex] = useState(0);
 
   useEffect(() => {
